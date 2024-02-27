@@ -14,7 +14,7 @@
 } */
 
 .App-header {
-  background-color: #c6c09c;
+  background-color: #696969;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,10 +25,10 @@
 }
 
 .App-name {
-  color: #696969;
+  color: #c6c09c;
   /* font-family: 'Roboto'; */
-  font-size: 1.9rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 .App-logo {
@@ -37,12 +37,12 @@
 
 .startButton {
   padding: 8px 18px;
-  background-color: #696969;
-  color: #ffc98b;
+  background-color: grey;
+  color: #c6c09c;
   border: none;
   border-radius: 10px;
   /* font-family: 'Droid Sans'; */
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.4rem;
 
 }
