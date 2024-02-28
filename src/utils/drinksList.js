@@ -21,7 +21,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Colletti Royale",
     images: [
       url(
@@ -39,7 +38,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Gimlet",
     images: [
       url(
@@ -56,7 +54,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Lemon Drop",
     images: [
       url(
@@ -74,7 +71,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Orange Blossom Whiskey Sour",
     images: [
       url(
@@ -115,7 +111,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Raspberry Thyme Smash",
     images: [
       url(
@@ -155,7 +150,6 @@ export const drinksList = [
     },
   },
   {
-    // blank object to make filling this file easier for everyone
     name: "Blackberry Bramble Cocktail",
     images: [
       url("https://unsplash.com/photos/a-glass-with-a-drink-in-it-tnr0D_P6ZAQ"),
@@ -215,4 +209,23 @@ export const drinksList = [
       step4: "Fill the glass to the top with prosecco and stir gently.",
     },
   },
+      // blank object to make filling this file easier for everyone
+    name: "",
+    images: [
+      url(""),
+      url(""),
+    ],
+    tags: [
+      "",
+      "",
+    ],
+    recipe: url(""),
+    steps: {
+      step1: "",
+      step2: "",
+      step3: "",
+      step4: "",
+      step5: ""
+    }
+  }
 ];
