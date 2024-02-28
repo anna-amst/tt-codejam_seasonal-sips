@@ -5,7 +5,6 @@ export const drinksList = [
       url(
         "https://unsplash.com/photos/a-couple-of-glasses-filled-with-drinks-on-top-of-a-table-vbLUVCUuOUg"
       ),
-      url(""),
     ],
     tags: ["Bourbon", "Peach", "Brown Sugar", "Ginger Beer", "Mint"],
     recipe: url("https://stripedspatula.com/bourbon-peach-smash/"),
