@@ -1,4 +1,4 @@
-const drinksList = [
+export const drinksList = [
   {
     name: "Bourbon and Peach Smash",
     urls: [
