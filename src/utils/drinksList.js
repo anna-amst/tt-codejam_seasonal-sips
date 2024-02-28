@@ -193,8 +193,7 @@ export const drinksList = [
       ),
     ],
     tags: [
-      "St-Germain elderflower",
-      "Liqueur",
+      "St-Germain Elderflower Liqueur",
       "Mint",
       "Prosecco",
       "Soda water",
@@ -209,6 +208,7 @@ export const drinksList = [
       step4: "Fill the glass to the top with prosecco and stir gently.",
     },
   },
+  {
       // blank object to make filling this file easier for everyone
     name: "",
     images: [
