@@ -191,18 +191,20 @@ export const drinksList = [
   },
   {
     name: "Cucumber Collins",
-  images: [
-    url("https://images.unsplash.com/photo-1602298134483-f4f469306bf6?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
-    url("https://images.unsplash.com/photo-1597075759290-5c29a23c8a16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
-  ],
-  tags: ["Gin", "Cucumber", "Lime", "Simple Syrup"
-  ],
-  recipe: url("https://www.thespruceeats.com/cucumber-collins-4778647"),
-  steps: {
-    step1: "In a cocktail shaker, add the cucumber, lime, and simple syrup. Muddle well to release all the fruit juices. Add the gin, fill the shaker with ice, and shake well.",
-    step2: "Strain into a tall glass filled with fresh ice and cucumber ribbons. Top with seltzer.",
-    step3: "Garnish with a lime slice and mint sprig. Serve and enjoy.",
-  }}
+    images: [
+      url("https://images.unsplash.com/photo-1602298134483-f4f469306bf6?q=80&w=1885&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1597075759290-5c29a23c8a16?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+    ],
+    tags: [
+      "Gin", "Cucumber", "Lime", "Simple Syrup"
+    ],
+    recipe: url("https://www.thespruceeats.com/cucumber-collins-4778647"),
+    steps: {
+      step1: "In a cocktail shaker, add the cucumber, lime, and simple syrup. Muddle well to release all the fruit juices. Add the gin, fill the shaker with ice, and shake well.",
+      step2: "Strain into a tall glass filled with fresh ice and cucumber ribbons. Top with seltzer.",
+      step3: "Garnish with a lime slice and mint sprig. Serve and enjoy.",
+    },
+  },
   {
     name: "Aperol Spritz",
     images: [
@@ -215,7 +217,7 @@ export const drinksList = [
     steps: {
       step1: "You’ll simply fill a wine glass with ice, then add Aperol, Prosecco, club soda and a slice of orange.",
     }
-  }
+  },
   {
     name:"Apricot Sour",
     images: [
@@ -232,8 +234,8 @@ export const drinksList = [
       step2: "Pour 2oz Apricot Brandy and 2oz Sour Mix into a cocktail shaker filled with ice.",
       step3: "Shake Well.",
       step4: "Strain into glass and serve with a cherry on top.",
-    }:
-  }
+    },
+  },
   {
     name: "Butterfly Pea Lemonade",
     images: [
@@ -248,8 +250,8 @@ export const drinksList = [
       step2: "Cover and steep. The water will turn a deep blue. Remove the tea bag and let cool.",
       step3: "Pour lemonade into a cup with ice.",
       step4: "Add cooled down tea & serve. Garnish with thinly sliced lemon."
-    }
-  }
+    },
+  },
   {
     name:"Indigo Thrill"
     images: [
