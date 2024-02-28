@@ -1,7 +1,7 @@
 export const drinksList = [
   {
     name: "Bourbon and Peach Smash",
-    urls: [
+    images: [
       url(
         "https://images.unsplash.com/photo-1691568769494-bd35c1e48917?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       ), ("https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
