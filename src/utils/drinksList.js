@@ -2,9 +2,8 @@ export const drinksList = [
   {
     name: "Bourbon and Peach Smash",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1691568769494-bd35c1e48917?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ), ("https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1691568769494-bd35c1e48917?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Bourbon", "Peach", "Brown Sugar", "Ginger Beer", "Mint"],
     recipe: url("https://stripedspatula.com/bourbon-peach-smash/"),
@@ -23,9 +22,7 @@ export const drinksList = [
   {
     name: "Colletti Royale",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1644247988716-e5b98d435f22?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ), ("https://images.unsplash.com/photo-1644320579405-7a1f22e52a55?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1644247988716-e5b98d435f22?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), url("https://images.unsplash.com/photo-1644320579405-7a1f22e52a55?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Blood Orange", "Lime", "Champagne", "Tequila", "Cointreau"],
     recipe: url("https://www.liquor.com/recipes/colletti-royale/"),
@@ -40,9 +37,8 @@ export const drinksList = [
   {
     name: "Gimlet",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ), ("https://images.unsplash.com/photo-1623593688280-a5aec8ac4ae7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1551538827-9c037cb4f32a?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1623593688280-a5aec8ac4ae7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Gin", "Lime", "Honey Simple Syrup"],
     recipe: url("https://www.gimmesomeoven.com/gimlet-recipe/"),
@@ -56,9 +52,8 @@ export const drinksList = [
   {
     name: "Lemon Drop",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1639048759534-88ddc0824955?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ),("https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1639048759534-88ddc0824955?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1615887023516-9b6bcd559e87?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Vodka", "Triple Sec", "Lemon Juice", "Simple Syrup"],
     recipe: url("https://www.liquor.com/recipes/lemon-drop/"),
@@ -75,7 +70,8 @@ export const drinksList = [
     images: [
       url(
         "https://plus.unsplash.com/premium_photo-1690056321886-e35b0f0268d5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ),("https://images.unsplash.com/photo-1615887023544-3a566f29d822?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      ),
+      url("https://images.unsplash.com/photo-1615887023544-3a566f29d822?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Bourbon", "Lemon Juice", "Orange Blossom", "Simple Syrup"],
     recipe: url(
@@ -94,7 +90,7 @@ export const drinksList = [
     images: [
       url(
         "https://images.unsplash.com/photo-1504310578167-435ac09e69f3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ),("https://images.unsplash.com/photo-1605248152567-5af30fbe14d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      ), url("https://images.unsplash.com/photo-1605248152567-5af30fbe14d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Lime Flavored Rum", "Blueberries", "Mint Leaves"],
     recipe: url(
@@ -113,9 +109,8 @@ export const drinksList = [
   {
     name: "Raspberry Thyme Smash",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1595981266686-0cf387d0a608?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ),("https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1595981266686-0cf387d0a608?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Raspberries", "Gin", "Simple Syrup", "Lime Juice", "Thyme"],
     recipe: url("https://www.bonappetit.com/recipe/raspberry-thyme-smash"),
@@ -133,9 +128,8 @@ export const drinksList = [
   {
     name: "Raspberry White Chocolate Latte",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1620360289473-bfafadc16c57?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ),("https://images.unsplash.com/photo-1562447457-579fc34967fb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1620360289473-bfafadc16c57?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1562447457-579fc34967fb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: ["Raspberry Syrup", "White Chocolate Sauce", "Coffee"],
     recipe: url(
@@ -169,9 +163,8 @@ export const drinksList = [
   {
     name: "Hugo Spritz",
     images: [
-      url(
-        "https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      ), ("https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      url("https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
+      url("https://images.unsplash.com/photo-1556881286-fc6915169721?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     ],
     tags: [
       "St-Germain Elderflower Liqueur",
