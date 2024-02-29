@@ -1,13 +1,28 @@
+import React, { useState } from "react";
 import logo from "../../images/drinksGallery.png";
 import "./Home.css";
 
-const Home = () => {
+const Home = (props) => {
+  const setLocation = () => {
+    const input = document.querySelector("#search-bar");
+    if (input.value.length > 0) {
+      props.setIsLocated(true);
+      props.handleScroll("main");
+      props.setAddress(input.value);
+    }
+  };
+
+  const handleEnter = (e) => {
+    if (e.key === "Enter") {
+      setLocation();
+    }
+  };
+
   return (
     <div className="home">
       <div className="home__header">
-        <p className="home__caption">
-          <span className="home__caption_span">Welcome to </span>Seasonal Sips
-        </p>
+        <p className="home__caption">Seasonal Sips</p>
+        <p className="home__caption-byline">Curating Seasonal Libations</p>
         <div className="home__container">
           <div className="">
             <p className="home__description">
@@ -16,7 +31,7 @@ const Home = () => {
               them for making your next night in or out with your friends into a
               new and exciting adventure.
             </p>
-            <p className="home__description">
+            <p className="home__description description_second-line">
               All while supporting local businesses you might never have thought
               to visit before.
             </p>
@@ -25,7 +40,20 @@ const Home = () => {
             <img src={logo} className="home__logo" alt="logo" />
           </div>
         </div>
-        <button type="button" id="start-button" className="home__submit">
+        <input
+          id="search-bar"
+          type="text"
+          placeholder="Enter ZipCode"
+          className="home__search"
+          onKeyDown={handleEnter}
+          required
+        />
+        <button
+          type="button"
+          id="start-button"
+          onClick={setLocation}
+          className="home__submit"
+        >
           Find Libation
         </button>
       </div>

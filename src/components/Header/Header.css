@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+}
+
+.header__container {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__container-title {
+  font-size: 50px;
+  margin: 0;
+  color: rgba(170, 159, 61, 0.75);
+  font-family: "Gardena Holmes serif", sans-serif;
+}
+
+.header__container-description {
+  margin: 5px 0 10px 0;
+  font-size: 45px;
+  color: rgba(184, 123, 49, 0.808);
+  font-family: "Gardena Holmes Script DEMO", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .header__logo {
+    width: 100px;
+  }
+
+  .header__container-title {
+    font-size: 24px;
+  }
+
+  .header__container-description {
+    font-size: 16px;
+  }
+}
