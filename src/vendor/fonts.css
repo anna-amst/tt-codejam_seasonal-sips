@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/a047bec1096d883c5691492a6afa7012?family=Gardena+Holmes+Script+DEMO);
+
 @font-face {
   font-family: "Gardena Holmes serif";
   font-style: normal;
@@ -8,10 +10,14 @@
 }
 
 @font-face {
-  font-family: "Gardena Holmes script";
+  font-family: "Gardena Holmes Script DEMO";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./fonts/gardena-holmes-script-400.otf") format("otf"),
-    url("./fonts/gardena-holmes-script-400.ttf") format("ttf");
+  src: url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.ttf")
+      format("truetype");
 }

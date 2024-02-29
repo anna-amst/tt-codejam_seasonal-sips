@@ -1,6 +1,10 @@
 import drinksList from "../../utils/drinksList"
 
 const drink1 = drinksList[0];
+const drink2 = drinksList[1];
+const drink3 = drinksList[2];
+const drink4 = drinksList[3];
+const drink5 = drinksList[4];
 
 <div class="wrapper">
         <div class="container">
@@ -10,8 +14,7 @@ const drink1 = drinksList[0];
                     <div class="icon">1</div>
                     <div class="description">
                         <h4>{drink1.name}</h4>
-                        <p>Winter has so much to offer -
-                         creative activities</p>
+                        <p>{drink1.tags}</p>
                     </div>
                 </div>
             </label>
@@ -20,9 +23,8 @@ const drink1 = drinksList[0];
                 <div class="row">
                     <div class="icon">2</div>
                     <div class="description">
-                        <h4>Digital Technology</h4>
-                        <p>Gets better every day -
-                         stay tuned</p>
+                        <h4>{drink2.name}</h4>
+                        <p>{drink2.tags}</p>
                     </div>
                 </div>
             </label>
@@ -31,8 +33,8 @@ const drink1 = drinksList[0];
                 <div class="row">
                     <div class="icon">3</div>
                     <div class="description">
-                        <h4>Globalization</h4>
-                        <p>Help people all over the world</p>
+                        <h4>{drink3.name}</h4>
+                        <p>{drink3.tags}</p>
                     </div>
                 </div>
             </label>
@@ -41,9 +43,8 @@ const drink1 = drinksList[0];
                 <div class="row">
                     <div class="icon">4</div>
                     <div class="description">
-                        <h4>New technologies</h4>
-                        <p>Space engineering becomes
-                         more and more advanced</p>
+                        <h4>{drink4.name}</h4>
+                        <p>{drink4.tags}</p>
                     </div>
                 </div>
             </label>
@@ -52,9 +53,8 @@ const drink1 = drinksList[0];
                 <div class="row">
                     <div class="icon">5</div>
                     <div class="description">
-                        <h4>New technologies</h4>
-                        <p>Space engineering becomes
-                         more and more advanced</p>
+                        <h4>{drink5.name}</h4>
+                        <p>{drink5.tags}</p>
                     </div>
                 </div>
             </label>

@@ -1,6 +1,4 @@
 .home {
-  background-color: rgba(229, 198, 191, .75);
-  padding: 50px 0 115px;
 }
 
 .home__header {
@@ -12,11 +10,17 @@
 }
 
 .home__caption {
-  color: rgba(170, 159, 61, .75);
-  font-family: 'Gardena Holmes serif', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
+  color: rgba(170, 159, 61, 0.75);
+  font-family: "Gardena Holmes serif", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
   padding-top: 50px;
+}
+
+.home__caption_span {
+  font-family: "Gardena Holmes Script DEMO";
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 .home__container {
@@ -31,7 +35,7 @@
   height: 600px;
   border: none;
   border-radius: 30%;
-  background-color: rgba(169, 175, 159, .5);
+  background-color: rgba(170, 159, 61, 0.35);
   vertical-align: center;
   margin: 30px 30px;
   visibility: visible;
@@ -49,7 +53,7 @@
   align-self: center;
   padding-top: 20%;
   font-size: 1.8rem;
-  font-family: 'Gardena Holmes serif', sans-serif;
+  font-family: "Gardena Holmes serif", sans-serif;
 }
 
 .home__search {
@@ -58,11 +62,27 @@
 
 .home__submit {
   padding: 12px 18px;
-  background-color: rgba(198, 192, 156, .75);
-  color: #fff5e5;
+  background-color: rgba(170, 159, 61, 0.35);
+  color: rgba(241, 226, 202, 0.738);
   border: none;
   border-radius: 10px;
-  font-family: 'Gardena Holmes serif', sans-serif;
+  font-family: "Gardena Holmes serif", sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
 }
+
+.home__submit:hover {
+  background-color: rgba(170, 159, 61, 0.75);
+  color: rgb(255, 213, 0);
+}
+
+/* Pale Dogwood hex #F4CFC7 rgb 244,207,199 */
+/* Light Coral hex #E79796 rgb 231,151,150 */
+/* Peach Fuzz hex #FFBE98 rgb 255,190,152 */
+/* Sunset hex #FFC98B rgb(255,201,139) */
+/* Sage hex #C6C09C rgb 198,102,156 */
+
+/* Dark Gray #696969 rgb */
+/* Smashed Avocado hex #AA9F3D rgb 170,159,61 */
+/* Greige hex #CCC2BA rgba(204, 194, 186, 1) */
+/* hex #fff5e5 rgb(255,245,229) */
