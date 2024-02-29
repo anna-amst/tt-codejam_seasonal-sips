@@ -1,4 +1,7 @@
-.home {}
+.home {
+  background-color: rgba(229, 198, 191, .75);
+  padding: 50px 0 115px;
+}
 
 .home__header {
   display: flex;
@@ -9,16 +12,44 @@
 }
 
 .home__caption {
-  color: #AA9F3D;
-  /* font-family: 'Roboto'; */
+  color: rgba(170, 159, 61, .75);
+  font-family: 'Gardena Holmes serif', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 50px;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 3rem;
+}
+
+.home__circle {
+  width: 600px;
+  height: 600px;
+  border: none;
+  border-radius: 30%;
+  background-color: rgba(169, 175, 159, .5);
+  vertical-align: center;
+  margin: 30px 30px;
+  visibility: visible;
 }
 
 .home__logo {
-  padding-bottom: 30px;
-  max-width: 500px;
+  max-width: 400px;
+  padding-top: 75px;
+  visibility: visible;
+}
+
+.home__description {
+  max-width: 400px;
+  text-align: left;
+  align-self: center;
+  padding-top: 20%;
+  font-size: 1.8rem;
+  font-family: 'Gardena Holmes serif', sans-serif;
 }
 
 .home__search {
@@ -27,11 +58,11 @@
 
 .home__submit {
   padding: 12px 18px;
-  background-color: #C6C09C;
+  background-color: rgba(198, 192, 156, .75);
   color: #fff5e5;
   border: none;
   border-radius: 10px;
-  /* font-family: 'Droid Sans'; */
+  font-family: 'Gardena Holmes serif', sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
 }
