@@ -2,11 +2,11 @@ export const drinksList = [
   {
     name: "Bourbon and Peach Smash",
     images: [
-      url("https://images.unsplash.com/photo-1691568769494-bd35c1e48917?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
-      url("https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      'url("https://images.unsplash.com/photo-1691568769494-bd35c1e48917?q=80&w=1908&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+      'url("https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")'
     ],
     tags: ["Bourbon", "Peach", "Brown Sugar", "Ginger Beer", "Mint"],
-    recipe: url("https://stripedspatula.com/bourbon-peach-smash/"),
+    recipe: 'url("https://stripedspatula.com/bourbon-peach-smash/")',
     steps: {
       step1:
         "Add peaches, mint leaves, and simple syrup to the bottom of a cocktail shaker.",
@@ -246,7 +246,7 @@ export const drinksList = [
     },
   },
   {
-    name:"Indigo Thrill"
+    name:"Indigo Thrill",
     images: [
       url("https://images.unsplash.com/photo-1582269438702-578efa319292?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),
       url("https://images.unsplash.com/photo-1582269438732-fe4d1452df3c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"),

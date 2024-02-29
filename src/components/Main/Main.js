@@ -1,4 +1,5 @@
 import "./Main.css";
+import { drinksList } from "../../utils/drinksList";
 // eslint-disable-next-line
 import React from "react";
 import Map from "../Map/Map";
@@ -6,6 +7,15 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 // import ResourceCenter from "../ResourceCenter/ResourceCenter";
 
+const tagCloud = () => {
+  drinksList.forEach((drink) => {
+    drink.tags.forEach((tag) => {
+      if (!tagCloud.includes(tag)) {
+        tagCloud.push(tag);
+      }
+    });
+  });
+};
 const Main = (props) => {
   return (
     <>
