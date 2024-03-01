@@ -2,6 +2,10 @@
   min-height: 100vh;
   background-color: rgb(244, 235, 236);
   font-family: "Raleway", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .home__header {
@@ -9,7 +13,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  /* margin: 2rem auto; */
 }
 
 .home__caption {
@@ -39,8 +42,8 @@
 
 .home__circle {
   margin: 0;
-  width: 660px;
-  height: 360px;
+  width: 443px;
+  height:217px;
   border: none;
   border-radius: 50%;
   background-image: url("../../images/bannerSpring.png");
@@ -50,10 +53,10 @@
 .home__description {
   margin: 0;
   padding: 0;
-  max-width: 530px;
+  max-width: 970px;
   text-align: center;
   align-self: center;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .home__search {
