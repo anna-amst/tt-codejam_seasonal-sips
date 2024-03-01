@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Cinzel Decorative";
-  src: url("./fonts/CinzelDecorative-Regular.ttf") format("ttf");
+  src: url("./fonts/CinzelDecorative-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Playfair Display SC";
-  src: url("./fonts/PlayfairDisplaySC-Italic.ttf") format("ttf");
+  src: url("./fonts/PlayfairDisplaySC-Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("./fonts/Raleway-VariableFont_wght.ttf") format("ttf");
+  src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
