@@ -25,12 +25,17 @@ const Home = (props) => {
         <p className="home__caption-byline">Curating Seasonal Libations</p>
         <div className="home__container">
           <p className="home__description">
+            Have you and your friends gotten tired of going to the same old
+            places and drinking the same old things? Use Seasonal Sips to go on
+            an adventure in your town tonight!
+          </p>
+          <p className="home__description">
             Seasonal Sips offers a curated list of locally popular libations and
-            the places to find their ingredients or the places which serve them
+            the places to find their ingredients or the places that serve them
             for making your next night in or out with your friends into a new
             and exciting adventure.
           </p>
-          <p className="home__description description_second-line">
+          <p className="home__description">
             All while supporting local businesses you might never have thought
             to visit before.
           </p>
@@ -50,7 +55,7 @@ const Home = (props) => {
           onClick={setLocation}
           className="home__submit"
         >
-          Find Libations
+          FIND LIBATIONS
         </button>
       </div>
     </div>
