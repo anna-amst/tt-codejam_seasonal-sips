@@ -1,23 +1,23 @@
-@import url(https://db.onlinewebfonts.com/c/a047bec1096d883c5691492a6afa7012?family=Gardena+Holmes+Script+DEMO);
-
 @font-face {
-  font-family: "Gardena Holmes serif";
+  font-family: "Cinzel Decorative";
+  src: url("../vendor/fonts/CinzelDecorative-Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./fonts/gardena-holmes-serif-400.otf") format("otf"),
-    url("./fonts/gardena-holmes-serif-400.ttf") format("ttf");
 }
 
 @font-face {
-  font-family: "Gardena Holmes Script DEMO";
+  font-family: "Playfair Display SC";
+  src: url("../vendor/fonts/PlayfairDisplaySC-Italic.ttf") format("ttf");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../vendor/fonts/Raleway-VariableFont_wght.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/a047bec1096d883c5691492a6afa7012.ttf")
-      format("truetype");
 }
