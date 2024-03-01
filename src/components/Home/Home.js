@@ -24,21 +24,17 @@ const Home = (props) => {
         <p className="home__caption">Seasonal Sips</p>
         <p className="home__caption-byline">Curating Seasonal Libations</p>
         <div className="home__container">
-          <div className="">
-            <p className="home__description">
-              Seasonal Sips offers a curated list of locally popular libations
-              and the places to find their ingredients or the places which serve
-              them for making your next night in or out with your friends into a
-              new and exciting adventure.
-            </p>
-            <p className="home__description description_second-line">
-              All while supporting local businesses you might never have thought
-              to visit before.
-            </p>
-          </div>
-          <div className="home__circle">
-            <img src={logo} className="home__logo" alt="logo" />
-          </div>
+          <p className="home__description">
+            Seasonal Sips offers a curated list of locally popular libations and
+            the places to find their ingredients or the places which serve them
+            for making your next night in or out with your friends into a new
+            and exciting adventure.
+          </p>
+          <p className="home__description description_second-line">
+            All while supporting local businesses you might never have thought
+            to visit before.
+          </p>
+          <div className="home__circle"></div>
         </div>
         <input
           id="search-bar"
