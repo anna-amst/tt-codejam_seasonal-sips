@@ -71,8 +71,8 @@
   margin: 0;
   margin-top: 24px;
   padding: 12px 18px;
-  background-color: rgba(170, 159, 61, 0.35);
-  color: rgba(241, 226, 202, 0.738);
+  background-color: rgba(184, 123, 49, 0.808);
+  color: rgb(255, 213, 0);
   border: none;
   border-radius: 10px;
   font-family: "Gardena Holmes serif", sans-serif;
@@ -81,8 +81,8 @@
 }
 
 .home__submit:hover {
-  background-color: rgba(170, 159, 61, 0.75);
-  color: rgb(255, 213, 0);
+  background-color: rgba(170, 159, 61, 0.35);
+  color: rgb(255,245,229);
 }
 
 /* Pale Dogwood hex #F4CFC7 rgb 244,207,199 */

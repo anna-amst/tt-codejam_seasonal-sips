@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer__names">
         <span>Jenny Sukut </span>
         <span>Jerry Jackson</span>
-        <span>Anna </span>
+        <span>Anna Vasileva</span>
         <span>May </span>
       </div>
       <div className="footer__names"> &#x24B8; 2024</div>

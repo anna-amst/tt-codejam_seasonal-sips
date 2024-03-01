@@ -5,17 +5,9 @@ import React from "react";
 import Map from "../Map/Map";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+// import Tags from "../Tags/tags";
 // import ResourceCenter from "../ResourceCenter/ResourceCenter";
 
-const tagCloud = () => {
-  drinksList.forEach((drink) => {
-    drink.tags.forEach((tag) => {
-      if (!tagCloud.includes(tag)) {
-        tagCloud.push(tag);
-      }
-    });
-  });
-};
 const Main = (props) => {
   return (
     <>
@@ -23,6 +15,10 @@ const Main = (props) => {
         <Header address={props.address} />
         <div className="main__tag-selector">
           This is where you will select tags for drink choices.
+
+          <div className="tag_container">
+          {/* <Tags /> */}
+          </div>
         </div>
       </section>
       <section id="map" className="main__map">
