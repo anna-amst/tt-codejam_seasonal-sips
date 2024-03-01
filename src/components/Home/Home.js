@@ -50,7 +50,7 @@ const Home = (props) => {
           onClick={setLocation}
           className="home__submit"
         >
-          Find Libation
+          Find Libations
         </button>
       </div>
     </div>

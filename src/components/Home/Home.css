@@ -12,14 +12,14 @@
 }
 
 .home__caption {
-  color: rgb(194, 56, 4);
+  color: rgb(92, 122, 106);
   font-family: "Cinzel Decorative", serif;
   font-size: 6rem;
   font-weight: 400;
 }
 
 .home__caption-byline {
-  color: rgb(194, 56, 4);
+  color: rgb(92, 122, 106);
   font-family: "Playfair Display SC", serif;
   font-size: 2rem;
   font-style: italic;
@@ -69,12 +69,12 @@
   margin-top: 1.6rem;
   width: 24.8rem;
   height: 6rem;
-  background-color: rgb(194, 56, 4);
+  background-color: rgb(92, 122, 106);
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 3rem;
   font-family: "Raleway" ;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.25rem;
 }
 
